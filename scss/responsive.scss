@@ -1,0 +1,56 @@
+@media (max-width: 767px) { 
+	header {
+		#navbarSupportedContent {
+		    background-color: rgba(0, 0, 0, 0.5);
+		}
+	}
+	.hero-banner {
+		&.carousel {
+		    height: auto;
+		}
+		.item {
+		    height: auto;
+		}
+		.active {
+		    height: auto;
+		}
+	}
+	.bsb-project-1-grid {
+		.bsb-overlay-hover {
+			text-align: center;
+		}
+	}
+	.full-width-img {
+	  .parent {
+		  .child {
+				font-size: 28px;
+			}
+		}
+	}
+	.photo-slider  {
+		.carousel-inner {
+			.carousel-item > div {
+		      display: none;
+		    }
+		    .carousel-item > div:first-child {
+		      display: block;
+		    }
+		}
+		.carousel-control-next {
+		    width: 8%
+		}
+		.carousel-control-prev {
+			width: 8%
+		}
+	}
+	.footer_menu {
+		ul {
+		  padding-left: 0;
+		  li {
+		  	a {
+			  font-size: 12px;
+			}
+		  }
+		}
+	}
+}
